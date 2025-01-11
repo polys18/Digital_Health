@@ -8,4 +8,4 @@ I represented Medicatins as a struct that holds all the information required. Th
 
 I represented Patient also as a atruct that contains all the required informantion and methods.
 
-All three types have the CustomStringConvertible protocol and they all have thorough test coverage.
+All three types have the CustomStringConvertible protocol and they all have thorough test coverage. They are located in the types folder.
