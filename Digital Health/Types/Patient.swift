@@ -12,7 +12,7 @@ enum PatientError: Error {
 }
 
 //This is the struct that represents patient information.
-struct Patient {
+struct Patient: Equatable, Hashable {
     let medicalRecordNumber: String
     let firstName: String
     let lastName: String

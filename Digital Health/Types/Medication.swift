@@ -8,7 +8,7 @@
 import Foundation
 
 // A struct that contains information about medication that was perscribes to the patient.
-struct Medication {
+struct Medication: Equatable, Hashable {
     let name: String
     let datePrescribed: Date
     let dose: Double
